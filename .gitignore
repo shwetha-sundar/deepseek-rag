@@ -23,4 +23,6 @@ __pycache__/
 
 # Stores
 chroma_store/*.*
+!chroma_store/.gitkeep
 document_store/*.*
+!document_store/.gitkeep
