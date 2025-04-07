@@ -1,0 +1,26 @@
+# Virtual Environment
+.env
+.venv
+pyenv
+pyenv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+__pycache__/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Stores
+./chroma_store/*
+./document_store/*

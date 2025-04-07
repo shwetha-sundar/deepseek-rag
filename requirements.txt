@@ -1,0 +1,7 @@
+langchain_chroma
+langchain_community
+langchain_core
+langchain_ollama
+pandas
+pdfplumber
+streamlit
