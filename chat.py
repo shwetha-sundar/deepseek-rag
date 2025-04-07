@@ -53,11 +53,5 @@ if prompt := st.chat_input("What's on your mind?"):
             answer = main.generate_answer(prompt, related_documents)
             st.write(answer)
             st.session_state.messages.append({"role": "assistant", "content": answer})
-        
 
-# if question:
-#     st.chat_message("user").write(question)
-#     related_documents = main.retrieve_docs(question)
-#     answer = main.generate_answer(question, related_documents)
-#     st.chat_message("assistant").write(answer)
 
