@@ -20,17 +20,17 @@ if st.sidebar.button("Reset Chat"):
     ]
     st.rerun()
 
-if st.sidebar.button("Clear Context"):
+if st.sidebar.button("Clear DB"):
     try:
         main.clear_database()
         st.success("DB collection cleaned successfully.")
     except Exception as e:
         st.error(f"Error cleaning context: {e}")
 
-# Streamlit UI to trigger displaying embeddings
-if st.sidebar.button("Show Embeddings"):
-    df = main.display_embeddings()
-    st.dataframe(df)
+# # Streamlit UI to trigger displaying embeddings
+# if st.sidebar.button("Show Embeddings"):
+#     df = main.display_embeddings()
+#     st.dataframe(df)
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
