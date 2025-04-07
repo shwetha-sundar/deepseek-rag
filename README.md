@@ -26,7 +26,7 @@ A application that enables users to upload PDF documents and ask questions about
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/shwethas-sundar/pdf-qa-system.git
+    gh repo clone shwetha-sundar/deepseek-rag
     cd deepseek-ollama
     ```
 
